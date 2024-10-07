@@ -1,5 +1,7 @@
 ---
 title: How big is my tax cut?
+head: |
+  <meta name="description" content="Calculate and understand the tax cut you will receive from Stage 3 Tax Cuts" />
 ---
 
 ```tsx
