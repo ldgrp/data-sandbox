@@ -1,3 +1,7 @@
+---
+title: How big is my tax cut?
+---
+
 ```tsx
 import { taxcutArticle } from "./article-manifest.js";
 import { Prelude } from "./components/prelude.js";
