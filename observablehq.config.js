@@ -17,7 +17,7 @@ export default {
   // ],
 
   // Content to add to the head of the page, e.g. for a favicon:
-  head: '<link rel="icon" href="https://ldgrp.me/images/favicon-32x32.png" type="image/png" sizes="32x32"> <link rel="icon" href="https://ldgrp.me/images/favicon-16x16.png" type="image/png" sizes="16x16">',
+  head: '<link rel="icon" href="https://ldgrp.me/images/favicon-32x32.png" type="image/png" sizes="32x32"> <link rel="icon" href="https://ldgrp.me/images/favicon-16x16.png" type="image/png" sizes="16x16"> <script async src="https://www.googletagmanager.com/gtag/js?id=G-TJRJTNXBZP"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "G-TJRJTNXBZP"); </script>',
 
   // The path to the source root.
   root: "src",
