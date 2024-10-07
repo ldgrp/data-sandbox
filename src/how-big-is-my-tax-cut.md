@@ -10,6 +10,17 @@ import { Prelude } from "./components/prelude.js";
 display(<Prelude article={taxcutArticle}/>)
 ```
 
+<div class="warning">
+
+The Stage 3 Tax Cuts as described in this article is out of date. The actual cuts [as passed by Parliament](https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7140) are the following.
+
+- The 19% tax rate was reduced to 16%.
+- The 32.5% tax rate was reduced to 30%.
+- The 37% tax rate applies to every dollar between $135,000 and $190,000.
+- The 45% tax rate applies to every dollar above $190,000.
+
+</div>
+
 ```js
 const myIncome = view(Inputs.range([0, 250000], {
   label: "Income (A$)",
