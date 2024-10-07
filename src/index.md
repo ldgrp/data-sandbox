@@ -3,3 +3,11 @@
 This is the home page of your new Observable Framework app.
 
 For more, see <https://observablehq.com/framework/getting-started>.
+
+<hr/>
+
+<ul>
+    <li>
+        <a href="/article">Article</a>
+    </li>
+</ul>

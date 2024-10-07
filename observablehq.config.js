@@ -24,14 +24,15 @@ export default {
 
   // Some additional configuration options and their defaults:
   // theme: "default", // try "light", "dark", "slate", etc.
-  // header: "", // what to show in the header (HTML)
-  // footer: "Built with Observable.", // what to show in the footer (HTML)
-  // sidebar: true, // whether to show the sidebar
+  header: "<a href='/'>Leo Orpilla III</a>", // what to show in the header (HTML)
+  footer: "Built with <a href='https://observablehq.com/'>Observable</a>. Source on <a href='https://github.com/ldgrp/data-sandbox'>GitHub</a>.", // what to show in the footer (HTML)
+  sidebar: false, // whether to show the sidebar
   // toc: true, // whether to show the table of contents
-  // pager: true, // whether to show previous & next links in the footer
+  pager: false, // whether to show previous & next links in the footer
   // output: "dist", // path to the output root for build
   // search: true, // activate search
   // linkify: true, // convert URLs in Markdown to links
   // typographer: false, // smart quotes and other typographic improvements
   // cleanUrls: true, // drop .html from URLs
+  style: "./theme-ldgrp.css", 
 };

@@ -1,0 +1,75 @@
+@import url("observablehq:default.css");
+@import url("observablehq:theme-midnight.css");
+@import url("observablehq:theme-wide.css");
+
+:root { 
+    --theme-background: rgb(9 9 11);
+    --theme-foreground-focus: rgb(234 179 8);
+    --theme-foreground: rgb(255 255 255);
+    --sans-serif: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --observablehq-header-height: 48px;
+}
+
+body {
+    font-family: var(--sans-serif);
+    max-width: 42rem;
+}
+
+h1 {
+    font-size: 1.875rem;
+    letter-spacing: -0.025em;
+}
+
+#observablehq-center {
+    padding: 1rem;
+    margin: 0;
+}
+
+#observablehq-header {
+    user-select: none;
+    border-bottom: none;
+    position: relative;
+    height: 48px;
+    padding: 0;
+    margin: 0;
+    justify-content: left;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    letter-spacing: -0.025em;
+    font-weight: 700;
+    margin: 1rem 0;
+    left: 0;
+    right: 0;
+}
+
+@media (min-width: 640px) {
+    #observablehq-header {
+        justify-content: center;
+        margin: 2.5rem 0;
+        font-size: 3rem;
+        line-height: 1;
+    }
+}
+
+#observablehq-header a[href] {
+    color: var(--theme-foreground);
+}
+
+#observablehq-header a[href]:hover {
+    text-decoration: none;
+}
+
+#observablehq-header ~ #observablehq-main {
+    margin-top: 0;
+}
+#observablehq-toc ~ #observablehq-main {
+    padding-right: 0;
+}
+
+.prelude {
+    font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+    font-size: .875rem;
+    line-height: 1.25em;
+    color: rgb(209 213 219);
+    margin-bottom: 0.25rem;
+}
