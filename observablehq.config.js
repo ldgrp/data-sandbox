@@ -24,7 +24,7 @@ export default {
 
   // Some additional configuration options and their defaults:
   // theme: "default", // try "light", "dark", "slate", etc.
-  header: "<a href='https://ldgrp.me/'>Leo Orpilla III</a>", // what to show in the header (HTML)
+  header: "<a href='https://ldgrp.me/' target='_self'>Leo Orpilla III</a>", // what to show in the header (HTML)
   footer: "Built with <a href='https://observablehq.com/'>Observable</a>. Source on <a href='https://github.com/ldgrp/data-sandbox'>GitHub</a>.", // what to show in the footer (HTML)
   sidebar: false, // whether to show the sidebar
   // toc: true, // whether to show the table of contents
