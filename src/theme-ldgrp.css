@@ -11,8 +11,11 @@
 }
 
 body {
-    font-family: var(--sans-serif);
     max-width: 42rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--sans-serif);
 }
 
 h1 {
